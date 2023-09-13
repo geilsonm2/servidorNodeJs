@@ -1,0 +1,20 @@
+{
+  "name": "getting_started_nodejs",
+  "version": "1.0.0",
+  "description": "Aplicação de estudo de NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aula",
+    "youtube",
+    "getting started"
+  ],
+  "author": "geilson-maciel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
