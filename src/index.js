@@ -23,6 +23,8 @@ router.get("/contato", (req,res)=>{
 app.use(router)
 
 //Colocando nossa aplicação para ouvir nossas requisições, passando nossa porta e criando uma função para retornar uma mensagem do nosso servidor rodando.
-app.listen(3333,()=>{
+/*Quando mandamos para um servidor, não podemos escolher em qual porta vai estar rodando, ai colocamos o process.env.PORT ou 3333 
+quando for ler no servidor ele vai procurar uma chamada .PORT */
+app.listen(process.env.PORT || 3333,()=>{
     console.log("Servidor Rodando!")
 })
